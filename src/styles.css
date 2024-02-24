@@ -1,1 +1,5 @@
+
+.bg-gradient{
+  background: linear-gradient(to bottom, #0000 0%, #0000 50%, #000b 100%), url("./assets/a.jpg");}
+
 /* You can add global styles to this file, and also import other style files */

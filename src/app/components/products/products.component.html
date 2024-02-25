@@ -1,1 +1,64 @@
-<p>products works!</p>
+<div class="container-md">
+
+  <table class="table shadow-lg border-top border-4">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Image</th>
+      <th scope="col">Name</th>
+      <th scope="col">Categories</th>
+      <th scope="col">Process</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="">
+      <th scope="row">1</th>
+      <td style="max-width: 60rem; width: 7rem;height: auto"><img class="w-100 img-fluid rounded-3" src="assets/a.jpg"
+                                                                  alt=""></td>
+      <td>Otto</td>
+      <td>Otto</td>
+      <td>
+        <div>
+          <a class="btn btn-danger me-2">Delete</a>
+          <a class="btn btn-success">Update</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td style="max-width: 60rem; width: 7rem;height: auto"><img class="w-100 img-fluid rounded-3" src="assets/a.jpg"
+                                                                  alt=""></td>
+      <td>Otto</td>
+      <td>Otto</td>
+      <td>
+        <div>
+          <a class="btn btn-danger me-2">Delete</a>
+          <a class="btn btn-success">Update</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td style="max-width: 60rem; width: 7rem;height: auto"><img class="w-100 img-fluid rounded-3" src="assets/a.jpg"
+                                                                  alt=""></td>
+      <td>Otto</td>
+      <td>Otto</td>
+      <td>
+        <div>
+          <!--          burdaki methodun icewrisine
+          <div *ngFor="let item of items; let i = index">
+            <p>{{ item.name }}</p>
+            <button (click)="deleteItem(i)">Delete</button>
+          </div>
+           bu sekilde ulasacaz
+           -->
+
+          <a (click)="delete($event)" class="btn btn-danger me-2">Delete</a>
+          <a class="btn btn-success">Update</a>
+        </div>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+
+</div>

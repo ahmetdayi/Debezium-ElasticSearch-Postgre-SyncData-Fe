@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class ProductsComponent {
 
+  delete($event: MouseEvent) {
+    $event.preventDefault();
+
+  }
 }

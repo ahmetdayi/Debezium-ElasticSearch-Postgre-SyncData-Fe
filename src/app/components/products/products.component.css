@@ -1,0 +1,15 @@
+.container-md{
+  margin-top: 20px;
+}
+.img-fluid{
+  background-position: center;
+  object-position: center;
+
+}
+td {
+  vertical-align: middle !important;
+}
+th{
+  vertical-align: middle !important;
+}
+
